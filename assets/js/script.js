@@ -25,18 +25,8 @@ const runNav = () => {
 }
 
 const animationHeading = ["Hi, I'm Kenneth"];
-// console.log(animationHeading[0].slice(0,1));
-
 let number = 0; 
 let text = '';
-
-// text = animationHeading[0].length;
-
-// console.log(text);
-
-// for(let i = 0; i < animationHeading[0].length; i++){
-//     console.log(animationHeading[0][i])
-// }
 
 function animationNumber(){
     
@@ -44,7 +34,6 @@ function animationNumber(){
         clearInterval(stop);
         console.log('hello');
     } else {
-        //console.log(animationHeading[0][number]);
         text = animationHeading[0].slice(0, number);
         document.querySelector('#heroTextAnimationHeading').textContent = text;
         number++;

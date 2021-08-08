@@ -1,50 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="nav-mobile"><span class="nav-mobile-btn"></span></div>
-        <div class="nav-logo">
-            <img src="assets/imgs/logo.png">
-        </div>
-        <nav class="nav">
-            <ul class="nav-items-container">
-                <li><a href="">About</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a id="resume" href="">Resume</a></li>
-            </ul>
-        </nav>
+      <div class="nav-mobile"><span class="nav-mobile-btn"></span></div>
+      <div class="nav-logo">
+        <img src="assets/imgs/logo.png" />
+      </div>
+      <nav class="nav">
+        <ul class="nav-items-container">
+          <li><a href="">About</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a id="resume" href="">Resume</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="socials-container">
-        <ul class ="social-icon-list">
-            <li><a href=""><img src="./assets/imgs/github-logo.svg"></a></li>
-            <li><a href=""><img src="./assets/imgs/linkedin.svg"></a></li>
-            <li id="social-instagram"><a href=""><img src="./assets/imgs/instagram.svg"></a></li>
-        </ul>
+      <ul class="social-icon-list">
+        <li>
+          <a href=""><img src="./assets/imgs/github-logo.svg" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./assets/imgs/linkedin.svg" /></a>
+        </li>
+        <li id="social-instagram">
+          <a href=""><img src="./assets/imgs/instagram.svg" /></a>
+        </li>
+      </ul>
     </div>
     <div class="email-container">
-        <div class="email-list">
-            <a href="">itskcheng@gmail.com</a>
-        </div>
+      <div class="email-list">
+        <a href="">itskcheng@gmail.com</a>
+      </div>
     </div>
     <div class="hero-container">
-        <div class="hero-text-container">
-            <h1 id="heroTextAnimationHeading"></h1>
-            <h2>I build things for the web</h2>
-            <a id="hero-cta-btn" href="">Get In Touch</a>
+      <div class="hero-text-container">
+        <h1 id="heroTextAnimationHeading"></h1>
+        <h2>I build things for the web</h2>
+        <a id="hero-cta-btn" href="">Get In Touch</a>
+      </div>
+    </div>
+    <div class="about-container">
+      <div class="about-header">
+        <h2>About Me</h2>
+        <hr id="about-line" />
+      </div>
+      <div class="about-section">
+        <div class="about-info">
+          <p>
+            I’m a full stack web developer with an eye for design. I graduated
+            with a B.A. in Digital Media (Web Design) from the University of
+            Central Florida and completed a full MERN stack coding boot camp
+            from Northwestern University. My current development toolkit
+            includes using Javascript, NodeJS, React, MySQL, MongoDB, Express
+            and CSS–however, I’m quick to pick up new languages.
+          </p>
+          <p>
+            Apart from the technical aspects, my strengths include multitasking,
+            communication and time management. Because of this, I thrive working
+            under a collaborative and fast-paced agile environment. I’m familiar
+            with industry standard workflows and follow best practices based on
+            my experience as a web designer. Although that role has been
+            fulfilling, my interest leans more toward the problem-solving
+            mindset that flourishes in development and I’m ready to use my new
+            skills to build better and more meaningful experiences on the web.
+          </p>
+          <p>Technologies that I have have recently been working with:</p>
+          <div class="technology-container">
+            <ul class="technology-list">
+                <li>JavaScript (ES6)</li>
+                <li>React</li>
+                <li>Node.JS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+            </ul>
+            <ul class="technology-list">
+                <li>Express</li>
+                <li>Sequelize</li>
+                <li>JQuery</li>
+                <li>CSS3</li>
+                <li>HTML5</li>
+            </ul>
+            <ul class="technology-list">
+                <li>Git</li>
+                <li>Wordpress</li>
+                <li>Bootstrap 5</li>
+                <li>Materialize</li>
+                <li>Heroku</li>
+            </ul>
+          </div>
+          <a href="">Get in Touch</a>
+        </div>
+        <div class="about-profile-image">
+          <img src="./assets/imgs/profile-picture.jpg" alt="Profile Picture" />
+        </div>
+      </div>
+    </div>
+    <div class="project-container">
+        <div class="project-header">
+            <h2>Projects</h2>
+            <hr id="project-line" />
+        </div>
+        <div class="project-section">
+            <div class="project-image">
+                
+            </div>
+            <div class="project-information">
+
+            </div>
         </div>
     </div>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
