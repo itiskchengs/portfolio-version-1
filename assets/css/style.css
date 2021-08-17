@@ -404,6 +404,47 @@ sav.feather{
     border-top: 1px;
     border-color: var(--gray);
 }
+.project-section{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 10rem;
+}
+.project-image{
+    width: 65%;
+}
+.project-image img{
+    width: 100%;
+}
+.project-information{
+    width: 100%;
+    padding: 0rem 5rem;
+    color: var(--white);
+}
+.project-information p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.project-links{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.project-links a{
+    padding: .5rem 3rem;
+    background: var(--gray);
+    border-radius: .5rem; 
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.project-links a:hover{
+    text-decoration: none;
+    background: var(--aquamarine);
+}
+.live-site{
+    margin-left: 1rem;
+}
+
 /*=====================
     MEDIA QUERIES
 =====================*/
